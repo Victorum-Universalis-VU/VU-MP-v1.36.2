@@ -10,6 +10,10 @@ elector = yes
 technology_group = german_tech_group
 unit_type = western
 capital = 77	# Pfalz
+historical_rival = BAV
+historical_rival = ING
+historical_rival = LBV
+historical_rival = UBV
 
 1398.1.6 = {
 	monarch = {

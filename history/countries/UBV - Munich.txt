@@ -9,6 +9,9 @@ unit_type = western
 primary_culture = bavarian
 religion = catholic
 capital = 65	# München!
+historical_rival = LBV
+historical_rival = ING
+historical_rival = PAL
 
 
 1375.1.1 = {

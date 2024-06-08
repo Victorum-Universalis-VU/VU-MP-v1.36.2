@@ -6,3 +6,4 @@ unit_type = eastern
 primary_culture = greco_bactrian
 religion = hellenic
 capital = 450 # Baktra
+historical_rival = SEL

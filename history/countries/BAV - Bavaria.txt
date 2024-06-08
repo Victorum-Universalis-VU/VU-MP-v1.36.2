@@ -6,6 +6,7 @@ unit_type = western
 primary_culture = bavarian
 religion = catholic
 capital = 65	# München!
+historical_rival = PAL
 
 1503.12.1 = {
 	monarch = {

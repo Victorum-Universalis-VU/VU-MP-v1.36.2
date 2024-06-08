@@ -66,10 +66,8 @@ country_decisions = {
 			set_country_flag = formed_austrian_empire_flag
 			hidden_effect = {
 				every_province = {
-					OR = {
-						remove_core = HAB
-						remove_core = AUT #VU - SF addition
-					}
+					remove_core = HAB
+					remove_core = AUT #VU - SF addition
 				}
 			}
 		}
@@ -1937,7 +1935,10 @@ country_decisions = {
 			government = monarchy
 			OR = {
 				culture_group = mesopotamian_group
-				NOT = { religion_group = muslim }
+				OR = { 
+					religion = ashurist
+					religion = cult_of_marduk
+				}
 			}
 			NOT = { exists = ASY }
 			is_at_war = no

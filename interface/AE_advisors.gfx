@@ -9,8 +9,8 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_advisor_medicus"
-		texturefile = "gfx//interface//advisors//administrator.dds"
+		name = "GFX_advisor_physician"
+		texturefile = "gfx//interface//advisors//physician.dds"
 		noOfFrames = 1
 
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -19,7 +19,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_advisor_absolutist"
-		texturefile = "gfx//interface//advisors//administrator.dds"
+		texturefile = "gfx//interface//advisors//absolutist.dds"
 		noOfFrames = 1
 
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -27,8 +27,8 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_advisor_integrator"
-		texturefile = "gfx/interface/advisors//administrator.dds"
+		name = "GFX_advisor_assimilator"
+		texturefile = "gfx/interface/advisors//assimilator.dds"
 		noOfFrames = 1
 		
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -91,7 +91,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_advisor_propagandist"
-		texturefile = "gfx/interface/advisors//negotiator.dds"
+		texturefile = "gfx/interface/advisors//propagandist.dds"
 		noOfFrames = 1
 		
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -99,8 +99,8 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_advisor_parliament_speaker"
-		texturefile = "gfx//interface//advisors//negotiator.dds"
+		name = "GFX_advisor_parliamentarian"
+		texturefile = "gfx//interface//advisors//parliamentarian.dds"
 		noOfFrames = 1
 
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -108,8 +108,8 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_advisor_ethnic_politician"
-		texturefile = "gfx//interface//advisors//negotiator.dds"
+		name = "GFX_advisor_culture_minister"
+		texturefile = "gfx//interface//advisors//culture_minister.dds"
 		noOfFrames = 1
 
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -118,7 +118,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_advisor_estate_mediator"
-		texturefile = "gfx//interface//advisors//negotiator.dds"
+		texturefile = "gfx//interface//advisors//estate_mediator.dds"
 		noOfFrames = 1
 
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -135,8 +135,8 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_advisor_slave_master"
-		texturefile = "gfx//interface//advisors//negotiator.dds"
+		name = "GFX_advisor_economist"
+		texturefile = "gfx//interface//advisors//economist.dds"
 		noOfFrames = 1
 
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -154,7 +154,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_advisor_loyalist"
-		texturefile = "gfx//interface//advisors//negotiator.dds"
+		texturefile = "gfx//interface//advisors//loyalist.dds"
 		noOfFrames = 1
 
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -207,8 +207,8 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_advisor_blockade_runner"
-		texturefile = "gfx//interface//advisors//navarch.dds"
+		name = "GFX_advisor_smuggler"
+		texturefile = "gfx//interface//advisors//smuggler.dds"
 		noOfFrames = 1
 
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -217,7 +217,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_advisor_mariner"
-		texturefile = "gfx//interface//advisors//navarch.dds"
+		texturefile = "gfx//interface//advisors//mariner.dds"
 		noOfFrames = 1
 
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -243,8 +243,8 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_advisor_slave_master_female"
-		texturefile = "gfx//interface//advisors//negotiator_female.dds"
+		name = "GFX_advisor_economist_female"
+		texturefile = "gfx//interface//advisors//economist_female.dds"
 		noOfFrames = 1
 
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -271,7 +271,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_advisor_commando"
-		texturefile = "gfx/interface/advisors//commander.dds"
+		texturefile = "gfx/interface/advisors//commando.dds"
 		noOfFrames = 1
 		
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -280,7 +280,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_advisor_cavalier"
-		texturefile = "gfx/interface/advisors//commander.dds"
+		texturefile = "gfx/interface/advisors//cavalier.dds"
 		noOfFrames = 1
 		
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -289,7 +289,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_advisor_army_colonel"
-		texturefile = "gfx/interface/advisors//commander.dds"
+		texturefile = "gfx/interface/advisors//army_colonel.dds"
 		noOfFrames = 1
 		
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -298,7 +298,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_advisor_bombardier"
-		texturefile = "gfx/interface/advisors//commander.dds"
+		texturefile = "gfx/interface/advisors//bombardier.dds"
 		noOfFrames = 1
 		
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -307,7 +307,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_advisor_sapper"
-		texturefile = "gfx/interface/advisors//commander.dds"
+		texturefile = "gfx/interface/advisors//sapper.dds"
 		noOfFrames = 1
 		
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -378,8 +378,8 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_advisor_asiangfx_medicus"
-		texturefile = "gfx//interface//advisors//asian_administrator.dds"
+		name = "GFX_advisor_asiangfx_physician"
+		texturefile = "gfx//interface//advisors//asian_physician.dds"
 		noOfFrames = 1
 
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -388,7 +388,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_advisor_asiangfx_absolutist"
-		texturefile = "gfx//interface//advisors//asian_administrator.dds"
+		texturefile = "gfx//interface//advisors//asian_absolutist.dds"
 		noOfFrames = 1
 
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -396,8 +396,8 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_advisor_asiangfx_integrator"
-		texturefile = "gfx/interface/advisors//asian_administrator.dds"
+		name = "GFX_advisor_asiangfx_assimilator"
+		texturefile = "gfx/interface/advisors//asian_assimilator.dds"
 		noOfFrames = 1
 		
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -460,7 +460,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_advisor_asiangfx_propagandist"
-		texturefile = "gfx/interface/advisors//asian_negotiator.dds"
+		texturefile = "gfx/interface/advisors//asian_propagandist.dds"
 		noOfFrames = 1
 		
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -468,8 +468,8 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_advisor_asiangfx_parliament_speaker"
-		texturefile = "gfx//interface//advisors//asian_negotiator.dds"
+		name = "GFX_advisor_asiangfx_parliamentarian"
+		texturefile = "gfx//interface//advisors//asian_parliamentarian.dds"
 		noOfFrames = 1
 
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -477,8 +477,8 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_advisor_asiangfx_ethnic_politician"
-		texturefile = "gfx//interface//advisors//asian_negotiator.dds"
+		name = "GFX_advisor_asiangfx_culture_minister"
+		texturefile = "gfx//interface//advisors//asian_culture_minister.dds"
 		noOfFrames = 1
 
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -487,7 +487,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_advisor_asiangfx_estate_mediator"
-		texturefile = "gfx//interface//advisors//asian_negotiator.dds"
+		texturefile = "gfx//interface//advisors//asian_estate_mediator.dds"
 		noOfFrames = 1
 
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -504,8 +504,8 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_advisor_asiangfx_slave_master"
-		texturefile = "gfx//interface//advisors//asian_negotiator.dds"
+		name = "GFX_advisor_asiangfx_economist"
+		texturefile = "gfx//interface//advisors//asian_economist.dds"
 		noOfFrames = 1
 
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -523,7 +523,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_advisor_asiangfx_loyalist"
-		texturefile = "gfx//interface//advisors//asian_negotiator.dds"
+		texturefile = "gfx//interface//advisors//asian_loyalist.dds"
 		noOfFrames = 1
 
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -576,8 +576,8 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_advisor_asiangfx_blockade_runner"
-		texturefile = "gfx//interface//advisors//asian_navarch.dds"
+		name = "GFX_advisor_asiangfx_smuggler"
+		texturefile = "gfx//interface//advisors//asian_smuggler.dds"
 		noOfFrames = 1
 
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -586,7 +586,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_advisor_asiangfx_mariner"
-		texturefile = "gfx//interface//advisors//asian_navarch.dds"
+		texturefile = "gfx//interface//advisors//asian_mariner.dds"
 		noOfFrames = 1
 
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -604,7 +604,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_advisor_asiangfx_commando"
-		texturefile = "gfx//interface//advisors//asian_commander.dds"
+		texturefile = "gfx//interface//advisors//asian_commando.dds"
 		noOfFrames = 1
 
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -613,7 +613,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_advisor_asiangfx_cavalier"
-		texturefile = "gfx//interface//advisors//asian_commander.dds"
+		texturefile = "gfx//interface//advisors//asian_cavalier.dds"
 		noOfFrames = 1
 
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -622,7 +622,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_advisor_asiangfx_army_colonel"
-		texturefile = "gfx//interface//advisors//asian_commander.dds"
+		texturefile = "gfx//interface//advisors//asian_army_colonel.dds"
 		noOfFrames = 1
 
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -631,7 +631,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_advisor_asiangfx_bombardier"
-		texturefile = "gfx//interface//advisors//asian_commander.dds"
+		texturefile = "gfx//interface//advisors//asian_bombardier.dds"
 		noOfFrames = 1
 
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -640,7 +640,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_advisor_asiangfx_sapper"
-		texturefile = "gfx//interface//advisors//asian_commander.dds"
+		texturefile = "gfx//interface//advisors//asian_sapper.dds"
 		noOfFrames = 1
 
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -720,8 +720,8 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_advisor_medicus_female"
-		texturefile = "gfx//interface//advisors//administrator_female.dds"
+		name = "GFX_advisor_physician_female"
+		texturefile = "gfx//interface//advisors//physician_female.dds"
 		noOfFrames = 1
 
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -730,7 +730,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_advisor_absolutist_female"
-		texturefile = "gfx//interface//advisors//administrator_female.dds"
+		texturefile = "gfx//interface//advisors//absolutist_female.dds"
 		noOfFrames = 1
 
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -738,8 +738,8 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_advisor_integrator_female"
-		texturefile = "gfx/interface/advisors//administrator_female.dds"
+		name = "GFX_advisor_assimilator_female"
+		texturefile = "gfx/interface/advisors//assimilator_female.dds"
 		noOfFrames = 1
 		
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -802,7 +802,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_advisor_propagandist_female"
-		texturefile = "gfx/interface/advisors//negotiator_female.dds"
+		texturefile = "gfx/interface/advisors//propagandist_female.dds"
 		noOfFrames = 1
 		
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -810,8 +810,8 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_advisor_parliament_speaker_female"
-		texturefile = "gfx//interface//advisors//negotiator_female.dds"
+		name = "GFX_advisor_parliamentarian_female"
+		texturefile = "gfx//interface//advisors//parliamentarian_female.dds"
 		noOfFrames = 1
 
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -819,8 +819,8 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_advisor_ethnic_politician_female"
-		texturefile = "gfx//interface//advisors//negotiator_female.dds"
+		name = "GFX_advisor_culture_minister_female"
+		texturefile = "gfx//interface//advisors//culture_minister_female.dds"
 		noOfFrames = 1
 
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -829,7 +829,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_advisor_estate_mediator_female"
-		texturefile = "gfx//interface//advisors//negotiator_female.dds"
+		texturefile = "gfx//interface//advisors//estate_mediator_female.dds"
 		noOfFrames = 1
 
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -847,7 +847,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_advisor_loyalist_female"
-		texturefile = "gfx//interface//advisors//negotiator_female.dds"
+		texturefile = "gfx//interface//advisors//loyalist_female.dds"
 		noOfFrames = 1
 
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -900,8 +900,8 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_advisor_blockade_runner_female"
-		texturefile = "gfx//interface//advisors//navarch_female.dds"
+		name = "GFX_advisor_smuggler_female"
+		texturefile = "gfx//interface//advisors//smuggler_female.dds"
 		noOfFrames = 1
 
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -910,7 +910,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_advisor_mariner_female"
-		texturefile = "gfx//interface//advisors//navarch_female.dds"
+		texturefile = "gfx//interface//advisors//mariner_female.dds"
 		noOfFrames = 1
 
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -928,7 +928,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_advisor_commando_female"
-		texturefile = "gfx/interface/advisors//commander_female.dds"
+		texturefile = "gfx/interface/advisors//commando_female.dds"
 		noOfFrames = 1
 		
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -937,7 +937,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_advisor_cavalier_female"
-		texturefile = "gfx//interface//advisors//commander_female.dds"
+		texturefile = "gfx//interface//advisors//cavalier_female.dds"
 		noOfFrames = 1
 
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -946,7 +946,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_advisor_army_colonel_female"
-		texturefile = "gfx//interface//advisors//commander_female.dds"
+		texturefile = "gfx//interface//advisors//army_colonel_female.dds"
 		noOfFrames = 1
 
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -955,7 +955,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_advisor_bombardier_female"
-		texturefile = "gfx//interface//advisors//commander_female.dds"
+		texturefile = "gfx//interface//advisors//bombardier_female.dds"
 		noOfFrames = 1
 
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -964,7 +964,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_advisor_sapper_female"
-		texturefile = "gfx//interface//advisors//commander_female.dds"
+		texturefile = "gfx//interface//advisors//sapper_female.dds"
 		noOfFrames = 1
 
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -1035,8 +1035,8 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_advisor_asiangfx_medicus_female"
-		texturefile = "gfx//interface//advisors//asian_administrator_female.dds"
+		name = "GFX_advisor_asiangfx_physician_female"
+		texturefile = "gfx//interface//advisors//asian_physician_female.dds"
 		noOfFrames = 1
 
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -1045,9 +1045,18 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_advisor_asiangfx_absolutist_female"
-		texturefile = "gfx//interface//advisors//asian_administrator_female.dds"
+		texturefile = "gfx//interface//advisors//asian_absolutist_female.dds"
 		noOfFrames = 1
 
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+
+	spriteType = {
+		name = "GFX_advisor_asiangfx_assimilator_female"
+		texturefile = "gfx/interface/advisors//asian_assimilator_female.dds"
+		noOfFrames = 1
+		
 		effectFile = "gfx/FX/buttonstate.lua"
 		loadType = "INGAME"
 	}
@@ -1108,7 +1117,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_advisor_asiangfx_propagandist_female"
-		texturefile = "gfx//interface//advisors//asian_negotiator_female.dds"
+		texturefile = "gfx//interface//advisors//asian_propagandist_female.dds"
 		noOfFrames = 1
 
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -1116,8 +1125,8 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_advisor_asiangfx_parliament_speaker_female"
-		texturefile = "gfx//interface//advisors//asian_negotiator_female.dds"
+		name = "GFX_advisor_asiangfx_parliamentarian_female"
+		texturefile = "gfx//interface//advisors//asian_parliamentarian_female.dds"
 		noOfFrames = 1
 
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -1125,8 +1134,8 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_advisor_asiangfx_ethnic_politician_female"
-		texturefile = "gfx//interface//advisors//asian_negotiator_female.dds"
+		name = "GFX_advisor_asiangfx_culture_minister_female"
+		texturefile = "gfx//interface//advisors//asian_culture_minister_female.dds"
 		noOfFrames = 1
 
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -1135,7 +1144,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_advisor_asiangfx_estate_mediator_female"
-		texturefile = "gfx//interface//advisors//asian_negotiator_female.dds"
+		texturefile = "gfx//interface//advisors//asian_estate_mediator_female.dds"
 		noOfFrames = 1
 
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -1152,8 +1161,8 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_advisor_asiangfx_slave_master_female"
-		texturefile = "gfx//interface//advisors//asian_negotiator_female.dds"
+		name = "GFX_advisor_asiangfx_economist_female"
+		texturefile = "gfx//interface//advisors//asian_economist_female.dds"
 		noOfFrames = 1
 
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -1171,7 +1180,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_advisor_asiangfx_loyalist_female"
-		texturefile = "gfx//interface//advisors//asian_negotiator_female.dds"
+		texturefile = "gfx//interface//advisors//asian_loyalist_female.dds"
 		noOfFrames = 1
 
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -1224,8 +1233,8 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_advisor_asiangfx_blockade_runner_female"
-		texturefile = "gfx//interface//advisors//asian_navarch_female.dds"
+		name = "GFX_advisor_asiangfx_smuggler_female"
+		texturefile = "gfx//interface//advisors//asian_smuggler_female.dds"
 		noOfFrames = 1
 
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -1234,7 +1243,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_advisor_asiangfx_mariner_female"
-		texturefile = "gfx//interface//advisors//asian_navarch_female.dds"
+		texturefile = "gfx//interface//advisors//asian_mariner_female.dds"
 		noOfFrames = 1
 
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -1252,7 +1261,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_advisor_asiangfx_commando_female"
-		texturefile = "gfx/interface/advisors//asian_commander_female.dds"
+		texturefile = "gfx/interface/advisors//asian_commando_female.dds"
 		noOfFrames = 1
 		
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -1261,7 +1270,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_advisor_asiangfx_cavalier_female"
-		texturefile = "gfx/interface/advisors//asian_commander_female.dds"
+		texturefile = "gfx/interface/advisors//asian_cavalier_female.dds"
 		noOfFrames = 1
 		
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -1270,7 +1279,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_advisor_asiangfx_army_colonel_female"
-		texturefile = "gfx/interface/advisors//asian_commander_female.dds"
+		texturefile = "gfx/interface/advisors//asian_army_colonel_female.dds"
 		noOfFrames = 1
 		
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -1279,7 +1288,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_advisor_asiangfx_bombardier_female"
-		texturefile = "gfx/interface/advisors//asian_commander_female.dds"
+		texturefile = "gfx/interface/advisors//asian_bombardier_female.dds"
 		noOfFrames = 1
 		
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -1288,7 +1297,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_advisor_asiangfx_sapper_female"
-		texturefile = "gfx/interface/advisors//asian_commander_female.dds"
+		texturefile = "gfx/interface/advisors//asian_sapper_female.dds"
 		noOfFrames = 1
 		
 		effectFile = "gfx/FX/buttonstate.lua"

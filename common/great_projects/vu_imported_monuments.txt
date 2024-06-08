@@ -2291,21 +2291,6 @@ vu_brugge_dike = {
 		}
 		
 		on_upgraded = {
-			# custom_tooltip = tt_if_engineering_ideas_tt
-			# if = {
-				# limit = {
-					# has_global_flag = idea_groups_expanded_mod_active
-					# owner = {
-						# OR = {
-							# full_idea_group = engineer_idea_groups_expanded
-							# full_idea_group = economic_ideas 
-						# }
-					# }
-				# }
-				# add_base_tax = 1 
-				# add_base_production = 1 
-				# add_base_manpower = 1
-			# }
 			add_base_tax = 1 
 			add_base_production = 1 
 			add_base_manpower = 1

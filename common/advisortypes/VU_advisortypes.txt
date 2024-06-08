@@ -3847,7 +3847,7 @@ propagandist = {
 	}
 }
 
-integrator = {
+assimilator = {
 	monarch_power = ADM
 
 	core_creation = -0.1
@@ -3997,7 +3997,7 @@ commando = {
 	}
 }
 
-blockade_runner = {
+smuggler = {
 	monarch_power = MIL
 
 	siege_blockade_progress = 1
@@ -4077,7 +4077,7 @@ blockade_runner = {
 	}
 }
 
-medicus = {
+physician = {
 	monarch_power = ADM
 
 	heir_chance = 0.5
@@ -4221,7 +4221,7 @@ absolutist = {
 	}
 }
 
-parliament_speaker = {
+parliamentarian = {
 	monarch_power = DIP
 
 	can_revoke_parliament_seats = yes
@@ -4297,7 +4297,7 @@ parliament_speaker = {
 	}
 }
 
-ethnic_politician = {
+culture_minister = {
 	monarch_power = DIP
 
 	culture_conversion_cost = -0.15
@@ -5006,7 +5006,7 @@ bard = {
 	}
 }
 
-slave_master = {
+economist = {
 	monarch_power = ADM
 
 	global_trade_goods_size = 0.1
@@ -5070,11 +5070,30 @@ slave_master = {
 	}
 
 	chance = {
-		factor = 0
+		factor = 1
 		modifier = {
-			factor = 1
+			factor = 1.25
+			is_colony = yes
+		}
+		modifier = {
+			factor = 0
 			owner = {
-				exploration_ideas = 7
+				NOT = { num_of_colonists = 1 }
+			}
+		}
+		modifier = {
+			factor = 0
+			owner = {
+				primitives = yes
+			}
+		}
+		modifier = {
+			factor = 0.5
+			owner = {
+				OR = {
+					is_tribal = yes
+					government = native
+				}
 			}
 		}
 	}

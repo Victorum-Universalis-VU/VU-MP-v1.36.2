@@ -614,7 +614,7 @@ country_event = {
 			spawn_rebels = {
 				type = nationalist_rebels
 				size = 3
-				leader = "István Bocskay"
+				leader = "IstvÃ¡n Bocskay"
 				friend = HUN
 			}
 			clr_province_flag = hungarian_revolt
@@ -826,7 +826,7 @@ country_event = {
 	}
 }
 
-# The Insurrection of Duke Imre Thököly
+# The Insurrection of Duke Imre ThÃ¶kÃ¶ly
 country_event = {
 	id = flavor_hab.3333
 	title = "flavor_hab.EVTNAME3333"
@@ -904,7 +904,7 @@ country_event = {
 				type = nationalist_rebels
 				size = 3
 				friend = HUN
-				leader = "Imre Thököly"
+				leader = "Imre ThÃ¶kÃ¶ly"
 			}
 			
 
@@ -1924,7 +1924,7 @@ country_event = {
 	}
 }
 
-# The Pestsäule of Vienna.
+# The PestsÃ¤ule of Vienna.
 country_event = {
 	id = flavor_hab.14
 	title = flavor_hab.14.t
@@ -2034,7 +2034,7 @@ country_event = {
 	}
 }
 
-# The Mühlviertel Textile Production
+# The MÃ¼hlviertel Textile Production
 country_event = {
 	id = flavor_hab.17
 	title = flavor_hab.17.t
@@ -2347,86 +2347,86 @@ country_event = {
 
 	trigger = {
 		OR = {
-            AND = {
-                tag = AUT
-                NOT = { has_ruler_flag = friedrich_III_flag } 
-                STY = {
-                    exists = yes
-                    NOT = { has_ruler_flag = friedrich_III_flag } 
-                }
-            }
-            AND = {
-                tag = STY
-                has_ruler_flag = friedrich_III_flag
-                AUT = {
-                    exists = yes
-                    has_ruler_flag = friedrich_III_flag
-                    NOT = { has_heir_flag = ladislaus_postumus_flag }
-                }
-            }
+            		AND = {
+                		tag = AUT
+                		NOT = { has_ruler_flag = friedrich_III_flag } 
+                		STY = {
+                    			exists = yes
+                    			NOT = { has_ruler_flag = friedrich_III_flag } 
+            			}
+            			AND = {
+                			tag = STY
+                			has_ruler_flag = friedrich_III_flag
+                			AUT = {
+                    				exists = yes
+                    				has_ruler_flag = friedrich_III_flag
+                    				NOT = { has_heir_flag = ladislaus_postumus_flag }
+					}
+                		}
+            		}
 		}
 	}
 
 	immediate = { #Great!
 		hidden_effect = {
 			if = {
-                limit = {
-                    tag = AUT
-                    NOT = { has_ruler_flag = friedrich_III_flag } 
-                    STY = {
-                        exists = yes
-                        NOT = { has_ruler_flag = friedrich_III_flag } 
-                    }
-                }
+                		limit = {
+                    			tag = AUT
+                    			NOT = { has_ruler_flag = friedrich_III_flag } 
+                    			STY = {
+                        			exists = yes
+                        			NOT = { has_ruler_flag = friedrich_III_flag } 
+                    			}
+                		}
 				AUT = {
-		        	inherit = BSN
-		        	inherit = CNL
-		        	inherit = CR1
-		        	inherit = FRG
-		        	inherit = SH1
-		        	inherit = STY
-		        	change_tag = HAB
-			    	define_ruler = {
-			        	name = "Ladislaus Postumus"
-	                	dynasty = "von Habsburg"
-	                	adm = 3
-	                	dip = 3
-	                	mil = 2
-			        	age = 30
-			        	claim = 100
-			        }
-					kill_heir = yes
-		        }
-            }
-            else_if = {
-                limit = {
-                    tag = STY
-                    has_ruler_flag = friedrich_III_flag
-                    AUT = {
-                        exists = yes
-                        has_ruler_flag = friedrich_III_flag
-                        NOT = { has_heir_flag = ladislaus_postumus_flag }
-                    }
-                }
+		        		inherit = BSN
+		        		inherit = CNL
+		        		inherit = CR1
+		        		inherit = FRG
+		        		inherit = SH1
+		        		inherit = STY
+		        		change_tag = HAB
+			    		define_ruler = {
+			        		name = "Ladislaus Postumus"
+	                			dynasty = "von Habsburg"
+	                			adm = 3
+	                			dip = 3
+	                			mil = 2
+			        		age = 30
+			        		claim = 100
+			        	}
+					kill_heir = {}
+				}
+			}
+			else_if = {
+				limit = {
+					tag = STY
+					has_ruler_flag = friedrich_III_flag
+					AUT = {
+                        			exists = yes
+                        			has_ruler_flag = friedrich_III_flag
+                        			NOT = { has_heir_flag = ladislaus_postumus_flag }
+					}
+                		}
 				STY = {
 					inherit = AUT
-		        	inherit = BSN
-		        	inherit = CNL
-		        	inherit = CR1
-		        	inherit = FRG
-		        	inherit = SH1
-		        	#change_tag = HAB
-			    	define_ruler = {
-			        	name = "Friedrich III"
-	                	dynasty = "von Habsburg"
-	                	adm = 2
+		       			inherit = BSN
+		      	 		inherit = CNL
+		       			inherit = CR1
+		       			inherit = FRG
+		     	  		inherit = SH1
+		     			#change_tag = HAB
+					define_ruler = {
+			      	 		name = "Friedrich III"
+	                			dynasty = "von Habsburg"
+	                			adm = 2
 						dip = 5
 						mil = 1
-			        	#age = 30
-			        	claim = 100
-			        }
-		        }
-            }
+			       			#age = 30
+			       			claim = 100
+					}
+				}
+			}
 		}
 	}
 	

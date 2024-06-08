@@ -9,6 +9,9 @@ unit_type = western
 primary_culture = bavarian
 religion = catholic
 capital = 64	# Landshut
+historical_rival = UBV
+historical_rival = ING
+historical_rival = PAL
 
 1347.1.1 = {
 	monarch = {
