@@ -4554,7 +4554,11 @@ ebro_river_area = {
 }
 
 elbe_river_area = {
-    3586 8330
+    3586 8330 8795 8797
+}
+
+vltava_river_area = {
+    8796
 }
 
 neva_river_area = {

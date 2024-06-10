@@ -2330,6 +2330,12 @@ elbe_river_region = {
     }	
 }
 
+vltava_river_region = {
+    areas = {
+	    vltava_river_area		
+    }	
+}
+
 neva_river_region = {
     areas = { 
 	    neva_river_area

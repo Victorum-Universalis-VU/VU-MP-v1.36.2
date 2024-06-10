@@ -167,14 +167,14 @@ state_overseer = {
 civil_engineer = {
 	monarch_power = ADM
 
-	build_cost = -0.1
+	build_cost = -0.10
 	
 	skill_scaled_modifier = {
 		trigger = {
 			always = yes
 		}
 		modifier = {
-			build_time = -0.10
+			build_time = -0.15
 		}
 	}
 
@@ -385,14 +385,14 @@ researcher = {
 reformist = {
 	monarch_power = ADM
 
-	reform_progress_growth = 0.1
+	reform_progress_growth = 0.2
 	
 	skill_scaled_modifier = {
 		trigger = {
 			always = yes
 		}
 		modifier = {
-			monthly_reform_progress = 0.2
+			monthly_reform_progress = 0.25
 		}
 	}
 
@@ -718,7 +718,7 @@ marketeer = {
 			always = yes
 		}
 		modifier = {
-			center_of_trade_upgrade_cost = -0.05
+			center_of_trade_upgrade_cost = -0.075
 		}
 	}
 
@@ -891,14 +891,14 @@ navarch = {
 subject_mediator = {
 	monarch_power = DIP
 
-	vassal_income = 0.125
+	vassal_income = 0.15
 
 	skill_scaled_modifier = {
 		trigger = {
 			always = yes
 		}
 		modifier = {
-			reduced_liberty_desire = 5	
+			reduced_liberty_desire = 5
 		}
 	}
 
@@ -1100,7 +1100,7 @@ drill_instructor = {
 			always = yes
 		}
 		modifier = {
-			drill_decay_modifier = -0.10
+			drill_decay_modifier = -0.15
 		}
 	}
 
@@ -1191,7 +1191,7 @@ combat_engineer = {
 tactician = {
 	monarch_power = MIL
 
-	movement_speed = 0.10
+	movement_speed = 0.15
 	
 	skill_scaled_modifier = {
 		trigger = {
@@ -3787,7 +3787,7 @@ propagandist = {
 			always = yes
 		}
 		modifier = {
-			ae_impact = -0.05
+			ae_impact = -0.075
 		}
 	}
 
@@ -3850,14 +3850,14 @@ propagandist = {
 assimilator = {
 	monarch_power = ADM
 
-	core_creation = -0.1
+	core_creation = -0.075
 	
 	skill_scaled_modifier = {
 		trigger = {
 			always = yes
 		}
 		modifier = {
-			years_of_nationalism = -2.5
+			years_of_nationalism = -2
 		}
 	}
 
@@ -4307,7 +4307,7 @@ culture_minister = {
 			always = yes
 		}
 		modifier = {
-			culture_conversion_time = -0.1
+			culture_conversion_time = -0.15
 		}
 	}
 
@@ -4377,7 +4377,7 @@ estate_mediator = {
 			always = yes
 		}
 		modifier = {
-			all_estate_influence_modifier = 0.05
+			all_estate_influence_modifier = -0.05
 		}
 	}
 
@@ -4450,7 +4450,7 @@ loyalist = {
 			always = yes
 		}
 		modifier = {
-			stability_cost_modifier = -0.1
+			stability_cost_modifier = -0.05
 		}
 	}
 
@@ -4876,7 +4876,7 @@ jester = {
 			always = yes
 		}
 		modifier = {
-			monthly_splendor = 0.5
+			monthly_splendor = 1
 		}
 	}
 
@@ -4946,7 +4946,7 @@ bard = {
 			always = yes
 		}
 		modifier = {
-			land_morale_constant = 0.025
+			land_morale_constant = 0.05
 		}
 	}
 
@@ -5009,7 +5009,7 @@ bard = {
 economist = {
 	monarch_power = ADM
 
-	global_trade_goods_size = 0.1
+	global_trade_goods_size = 0.05
 
 	skill_scaled_modifier = {
 		trigger = {
@@ -5017,8 +5017,7 @@ economist = {
 		}
 		modifier = {
 			global_unrest = 1
-			global_trade_goods_size_modifier = 0.05
-			liberty_desire = 10
+			global_trade_goods_size_modifier = 0.025
 		}
 	}
 
@@ -5106,15 +5105,15 @@ economist = {
 drunkard = {
 	monarch_power = ADM
 
-	movement_speed = 1
+	movement_speed = 0.10
 
 	skill_scaled_modifier = {
 		trigger = {
 			always = yes
 		}
 		modifier = {
-			morale_damage = 1
-			loot_amount = 1
+			morale_damage_received = -0.025 
+			morale_damage = -0.025
 		}
 	}
 
@@ -5168,22 +5167,22 @@ drunkard = {
 	chance = {
 		factor = 0
 		modifier = {
-			factor = 1
+			factor = 0.5
 			owner = {
-				OR = {
-					culture_group = east_slavic
-					culture_group = slavic
-					culture_group = west_slavic
-					culture_group = south_slavic
+				religion_group = christian
+				NOT = {
+					OR = {
+						government = native
+						government = theocracy
+						government = tribal
+					}
 				}
 			}
 		}
 		modifier = {
 			factor = 10
 			owner = {
-				OR = {
-					culture = czech
-				}
+				culture = czech
 			}
 		}
 	}

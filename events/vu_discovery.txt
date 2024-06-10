@@ -57,6 +57,7 @@ country_event = {
 				danube_river_region = { discover_country = ROOT }
 				ebro_river_region = { discover_country = ROOT }
 				elbe_river_region = { discover_country = ROOT }
+				vltava_river_region = { discover_country = ROOT }
 				neva_river_region = { discover_country = ROOT }
 				oder_river_region = { discover_country = ROOT }
 				rhine_river_region = { discover_country = ROOT }
@@ -148,6 +149,7 @@ country_event = {
 				danube_river_region = { discover_country = ROOT }
 				ebro_river_region = { discover_country = ROOT }
 				elbe_river_region = { discover_country = ROOT }
+				vltava_river_region = { discover_country = ROOT }
 				neva_river_region = { discover_country = ROOT }
 				oder_river_region = { discover_country = ROOT }
 				rhine_river_region = { discover_country = ROOT }
@@ -265,6 +267,7 @@ country_event = {
 				danube_river_region = { discover_country = ROOT }
 				ebro_river_region = { discover_country = ROOT }
 				elbe_river_region = { discover_country = ROOT }
+				vltava_river_region = { discover_country = ROOT }
 				neva_river_region = { discover_country = ROOT }
 				oder_river_region = { discover_country = ROOT }
 				rhine_river_region = { discover_country = ROOT }
@@ -534,6 +537,7 @@ country_event = {
 				danube_river_region = { discover_country = ROOT }
 				ebro_river_region = { discover_country = ROOT }
 				elbe_river_region = { discover_country = ROOT }
+				vltava_river_region = { discover_country = ROOT }
 				neva_river_region = { discover_country = ROOT }
 				oder_river_region = { discover_country = ROOT }
 				rhine_river_region = { discover_country = ROOT }
@@ -924,6 +928,7 @@ country_event = {
 				danube_river_region = { discover_country = ROOT }
 				ebro_river_region = { discover_country = ROOT }
 				elbe_river_region = { discover_country = ROOT }
+				vltava_river_region = { discover_country = ROOT }
 				neva_river_region = { discover_country = ROOT }
 				oder_river_region = { discover_country = ROOT }
 				rhine_river_region = { discover_country = ROOT }

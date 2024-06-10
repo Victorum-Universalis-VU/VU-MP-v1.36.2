@@ -454,7 +454,7 @@
  PROV3303:0 "Beloye"
  PROV3584:0 "Ebro Estuary"
  PROV3585:0 "Ebro River"
- PROV3586:0 "Elbe River"
+ PROV3586:0 "Upper Elbe River"
  PROV3587:0 "Oder River"
  PROV3693:0 "Kozloduy"
  PROV3694:0 "Doichov"
@@ -2211,6 +2211,12 @@
  PROV_ADJ8549:0 "Atayal"
  PROV_ADJ8673:0 "Menara"
  PROV_ADJ8700:0 "Keningau"
+ PROV8795:0 "Lower Elbe River"
+ PROV_ADJ8795:0 "Elbe River"
+ PROV8796:0 "Vltava River"
+ PROV_ADJ8796:0 "Vltava River"
+ PROV8797:0 "Havel River"
+ PROV_AD8797:0 "Havel River"
 
  ############################################################################################################
  ############################################################################################################

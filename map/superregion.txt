@@ -368,6 +368,9 @@ vistula_river_superregion = {
 ob_river_superregion = {
     ob_river_region
 }
+vltava_river_superregion = {
+    vltava_river_region
+}
 
 #Mesopotamia
 tigris_and_euphrates_river_superregion = {
