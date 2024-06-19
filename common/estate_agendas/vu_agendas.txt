@@ -1208,6 +1208,7 @@ estate_jews_build_manufactory_in_y = {
 		any_owned_province = {
 			is_state_core = root
 			root_can_build_manufactory_here_trigger = yes
+			has_burghers_trade_good_trigger = yes
 		}
 		monthly_income = 30
 	}

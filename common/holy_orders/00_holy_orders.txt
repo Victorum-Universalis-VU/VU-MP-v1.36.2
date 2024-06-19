@@ -582,10 +582,13 @@ santiago_order = {
 shadhili_order = {
     icon = GFX_holy_order_shadhili
     trigger = {
-     #   OR = {
+        OR = {
 			primary_culture = andalucian
-	#		has_country_flag = ARB_grant_access_to_muslim_holy_orders_flag #Edit by Altan : flag not set, disabling until further notice
-	#	}
+			ME_has_sufi_order_gov_reform_trigger = yes
+			has_government_attribute = enables_muslim_holy_orders
+		#	has_country_flag = ARB_grant_access_to_muslim_holy_orders_flag
+		#	has_country_flag = TIM_holy_orders
+		}
         religion_group = muslim
     }
     color = { 80 255 120 }
@@ -593,16 +596,29 @@ shadhili_order = {
     cost_type = adm_power
     per_province_effect = {
         add_base_tax = 1
-        owner = { add_piety = -0.02 }
-        custom_tooltip = order_piety_tooltip
+        if = {
+			limit = {
+				owner = {
+					has_government_attribute = enables_muslim_holy_orders_giving_4_mysticism
+				}
+			}
+			owner = { add_piety = -0.04 }
+			custom_tooltip = ME_order_piety_tooltip_upgrade
+		}
+		else = {
+			owner = { add_piety = -0.02 }
+			custom_tooltip = order_piety_tooltip
+		}
+		set_province_flag = shadhili_order_present
     }
     per_province_abandon_effect = {
-        add_base_manpower = -1
+        add_base_tax = -1
         hidden_effect = {
             if = {
                 limit = { NOT = { base_tax = 1 } }
                 set_base_tax = 1
             }
+            clr_province_flag = shadhili_order_present
         }
     }
     modifier = {
@@ -622,10 +638,13 @@ shadhili_order = {
 qadiri_order = {
     icon = GFX_holy_order_qadiri
     trigger = {
-    #    OR = {
-			primary_culture = andalucian 
-		#	has_country_flag = ARB_grant_access_to_muslim_holy_orders_flag #Edit by Altan : flag not set, disabling until further notice
-	#	}
+        OR = {
+			primary_culture = andalucian
+			ME_has_sufi_order_gov_reform_trigger = yes
+			has_government_attribute = enables_muslim_holy_orders
+		#	has_country_flag = ARB_grant_access_to_muslim_holy_orders_flag
+		#	has_country_flag = TIM_holy_orders
+		}
         religion_group = muslim
     }
     color = { 170 230 30 }
@@ -633,16 +652,29 @@ qadiri_order = {
     cost_type = dip_power
     per_province_effect = {
         add_base_production = 1
-        owner = { add_piety = -0.02 }
-        custom_tooltip = order_piety_tooltip
+        if = {
+			limit = {
+				owner = {
+					has_government_attribute = enables_muslim_holy_orders_giving_4_mysticism
+				}
+			}
+			owner = { add_piety = -0.04 }
+			custom_tooltip = ME_order_piety_tooltip_upgrade
+		}
+		else = {
+			owner = { add_piety = -0.02 }
+			custom_tooltip = order_piety_tooltip
+		}
+		set_province_flag = qadiri_order_present
     }
     per_province_abandon_effect = {
-        add_base_manpower = -1
+        add_base_production = -1
         hidden_effect = {
             if = {
                 limit = { NOT = { base_production = 1 } }
                 set_base_production = 1
             }
+            clr_province_flag = qadiri_order_present
         }
     }
     modifier = {
@@ -662,10 +694,13 @@ qadiri_order = {
 aissawa_order = {
     icon = GFX_holy_order_aissawa
     trigger = {
-    #   OR = {
+        OR = {
 			primary_culture = andalucian
-	#		has_country_flag = ARB_grant_access_to_muslim_holy_orders_flag #Edit by Altan : flag not set, disabling until further notice
-	#	}
+			ME_has_sufi_order_gov_reform_trigger = yes
+			has_government_attribute = enables_muslim_holy_orders
+		#	has_country_flag = ARB_grant_access_to_muslim_holy_orders_flag
+		#	has_country_flag = TIM_holy_orders
+		}
         religion_group = muslim
     }
     color = { 255 170 30 }
@@ -673,8 +708,20 @@ aissawa_order = {
     cost_type = mil_power
     per_province_effect = {
         add_base_manpower = 1
-        owner = { add_piety = -0.02 }
-        custom_tooltip = order_piety_tooltip
+        if = {
+			limit = {
+				owner = {
+					has_government_attribute = enables_muslim_holy_orders_giving_4_mysticism
+				}
+			}
+			owner = { add_piety = -0.04 }
+			custom_tooltip = ME_order_piety_tooltip_upgrade
+		}
+		else = {
+			owner = { add_piety = -0.02 }
+			custom_tooltip = order_piety_tooltip
+		}
+		set_province_flag = aissawa_order_present
     }
     per_province_abandon_effect = {
         add_base_manpower = -1
@@ -683,6 +730,7 @@ aissawa_order = {
                 limit = { NOT = { base_manpower = 1 } }
                 set_base_manpower = 1
             }
+            clr_province_flag = aissawa_order_present
         }
     }
     modifier = {
@@ -694,6 +742,15 @@ aissawa_order = {
         modifier = {
             factor = 1.5
             unrest = 5
+        }
+        modifier = {
+            factor = 3
+            has_terrain = mountain
+			has_fort_building_trigger = yes
+        }
+        modifier = {
+            factor = 1.25
+            has_fort_building_trigger = yes
         }
         modifier = {
             factor = 1.5

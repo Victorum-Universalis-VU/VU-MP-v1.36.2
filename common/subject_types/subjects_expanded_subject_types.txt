@@ -492,7 +492,7 @@ voivodeship = {
 	forcelimit_to_overlord = 0.33
 	military_focus = 1.5
 
-	relative_power_class = 2
+	relative_power_class = 1 #VU update on Prussia's suggestions for potential future changes. By SF
 	diplomacy_view_class = 1
 
 	restoration_cb = cb_disloyal_vassal

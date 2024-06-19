@@ -24,10 +24,10 @@ country_event = {
 		NOT = { exists = MAR } # Marathas
 		any_owned_province = {
 			OR = {
-					area = maidan_area
-					area = desh_area
-					culture = marathi
-				}
+				area = maidan_area
+				area = desh_area
+				culture = marathi
+			}
 		}
 	}
 	
