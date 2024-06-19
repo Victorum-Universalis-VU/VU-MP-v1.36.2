@@ -2274,47 +2274,6 @@ BUR_Ideas = {
 	}
 }
 
-
-GEN_Ideas = {
-	start = {
-		trade_efficiency = 0.10
-		interest = -0.5
-	}
-	
-	bonus = {
-		naval_maintenance_modifier = -0.2
-	}
-	
-	trigger = {
-		tag = GEN
-	}
-	free = yes
-	
-	reunited_genoa = {
-		stability_cost_modifier = -0.10
-		justify_trade_conflict_cost = -0.10
-	}
-	lessons_of_chiogga = {
-		naval_morale = 0.20
-	}	
-	genoese_trade = {
-		global_foreign_trade_power = 0.10
-		global_sailors_modifier = 0.20
-	}
-	the_genoese_arsenal = {
-		galley_cost = -0.33
-	}
-	overhauled_bureaucracy = {
-		global_tax_modifier = 0.1
-	}
-	the_office_of_grand_admiral = {
-		naval_forcelimit_modifier = 0.25
-	}
-	standardisation_of_designs = {
-		global_ship_recruit_speed = -0.10
-	}
-}
-
 GEN_ideas = {
 	start = {
 		naval_morale = 0.2
