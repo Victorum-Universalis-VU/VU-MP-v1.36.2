@@ -811,7 +811,7 @@
  freedom_of_worship_desc:0 "Although the Church is putting pressure on us to enforce greater religious orthodoxy, the towns citing the doctrine of Renaissance Humanism have been urging greater toleration. Although we cannot completely ignore the clergy the towns are simply too important to ignore."
  bur_regimental_system:0 "Create the Regimental System"
  bur_regimental_system_desc:0 "In order to facilitate more efficient recruitment to our armies we are tying regiments to regions and making each region responsible for providing recruits to its local regiment. This will streamline the process of recruiting and result in more available manpower."
- #
+ 
  GEN_Ideas:0 "Genoese Ideas"
  GEN_Ideas_start:0 "Genoese Traditions"
  GEN_Ideas_bonus:0 "Genoese Ambition"
@@ -829,7 +829,7 @@
  genoese_armada_desc:0 "."
  reorganise_mercenary_regiments:0 "Reorganised Mercenaries"
  reorganise_mercenary_regiments_desc:0 "."
- #
+ 
  SCO_Ideas:0 "Scottish Ideas"
  SCO_Ideas_start:0 "Scottish Traditions"
  SCO_Ideas_bonus:0 "Scottish Ambition"
@@ -1550,6 +1550,7 @@
  mercenary_armies_desc:0 "Adopt the concept of a standing army comprised mostly of foreign mercenaries. This is quite unlike the age-old tradition of levied peasants, reducing the impact of war on the Serbian economy, especially agriculture."
  balkan_hajduks:0 "Balkan Hajduks"
  balkan_hajduks_desc:0 "Unlike their northern counterparts in Hungary, Hajduks in Serbia and neighboring Balkan lands have earned a more infamous reputation. These men lived the hard life of brigands, always in danger, always on the move: preying on poorly defended roads, ambushing Turkish tax collectors and merchants. However, during wars these experienced, tough men often filled the ranks of Serbian armies, providing excellent - if a bit undisciplined - infantry."
+ 
  ORI_ideas:0 "Orissan Ideas"
  ORI_ideas_start:0 "Orissan Traditions"
  ORI_ideas_bonus:0 "Orissan Ambition"
@@ -1709,13 +1710,13 @@
  garba:0 "Garba!"
  garba_desc:0 "Originating out of the worship of the Hindu Goddess Ambaji by women through dance, our people have refined a new and very graceful form of dance called the Garba. The basics of the dance are singing and clapping rhythmically in a circular formation. Today, our men and women gather together to use this dance to celebrate any occasion with great fervor, coming together as a community and wearing exquisitely embroidered outfits. All of us together, young and old, peasant and prince, Muslim and Hindu, dancing in an ever growing circle."
  jain_routes:0 "Jain Connections"
- jain_routes_desc:0 "Jainism is an ancient way of life, put into its current form by Mahavira (599 BCE – 527 BCE). For a thousand years, Gujarat has been the stronghold of the Jain community and faith, with many holy sites and temples. Royal dynasties have patronized the religion, forming a common community with Hindus. Muslim invasions from the east, by Mahmud Ghazni (1001 CE) and Mohammad Ghori (1175 CE), oppressed the Jaina community, vandalizing temples or converting them into mosques, as well as having burned Jaina libraries. However, the Jains of Gujarat have survived, adapted and prospered, using their connections with Jain communities across the world to serve as a hub for both the faith and commerce."
+ jain_routes_desc:0 "Jainism is an ancient way of life, put into its current form by Mahavira (599 BCE to 527 BCE). For a thousand years, Gujarat has been the stronghold of the Jain community and faith, with many holy sites and temples. Royal dynasties have patronized the religion, forming a common community with Hindus. Muslim invasions from the east, by Mahmud Ghazni (1001 CE) and Mohammad Ghori (1175 CE), oppressed the Jaina community, vandalizing temples or converting them into mosques, as well as having burned Jaina libraries. However, the Jains of Gujarat have survived, adapted and prospered, using their connections with Jain communities across the world to serve as a hub for both the faith and commerce."
  gujarati_lipi:0 "Gujarati Lipi"
  gujarati_lipi_desc:0 "In the late 16th century, Gujarati Lipi, a new script and writing system was developed. It was developed by mercantile interests and became also known as the saraphi (bankers), vaniasai (merchants) or mahajani (traders) script, due to its association with commerce. It's use became widespread rapidly throughout Gujarat, Kutch and Sindh, to represent those languages, study Sanskrit and became adopted by the Zoroastrian Community to write Avestan. It provided a common writing system for many different communities, binding them together as well as facilitating unity and a common identity."
  merchant_diaspora:0 "Gujarati Merchant Diaspora"
  merchant_diaspora_desc:0 "There is nowhere our people do not trade! On every shore our people pursue commerce, following the trade winds... our fleets sail to and fro seeking new opportunities. Our merchants know the craft and value of making good and hardy ships on a merchant's budget."
  spice_trade:0 "Hub of the Indian Ocean Trade"
- spice_trade_desc:0 "Due to the nature of the monsoon trade winds and its geographic location, Gujarat has long served as the hub of all trade in the Indian Ocean going east. Gujarat is an essential intermediary in east–west trade, between the Red Sea, Egypt and Malacca: Gujarati merchants were important middlemen bringing spices from the Mallaku Islands as well as silk from China, and then selling them to the Egyptians and Arabs."
+ spice_trade_desc:0 "Due to the nature of the monsoon trade winds and its geographic location, Gujarat has long served as the hub of all trade in the Indian Ocean going east. Gujarat is an essential intermediary in east west trade, between the Red Sea, Egypt and Malacca: Gujarati merchants were important middlemen bringing spices from the Mallaku Islands as well as silk from China, and then selling them to the Egyptians and Arabs."
  western_factors:0 "Foreign Merchants set up Factories"
  western_factors_desc:0 "Following Arabs and Portuguese in the early 17th century, the British East India Company established a factory in Gujarati land in 1614. Many foreigners from the west are coming to our lands to purchase our goods wholesale in ever greater quantities... this can only have a good outcome! Right?"
  guj_africa:0 "Gujarati Diaspora Descends on Africa"
