@@ -4133,7 +4133,7 @@ jap_gokaido_reform = {
 		OR = {
 			have_had_reform = jap_gokaido_reform
 			has_reform = jap_gokaido_reform
-			mission_completed = jap_expand_gokaido
+			mission_completed = jap_gokaido
 		}
 	}
 	modifiers = {
