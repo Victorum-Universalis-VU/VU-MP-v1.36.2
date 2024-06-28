@@ -17,10 +17,14 @@ l_english:
  
  # loc for decision to update missions
  the_fix_title: "§YUpdate Missions§!"
- the_fix_desc: "Click to reset your mission tree and to choose again between ME or VU/PDX missions. You can only click this once."
- the_fix_only_once: "You caan only click this once"
+ the_fix_desc: "Click to reset your mission tree and to choose again between ME or VU/PDX missions. You can only click this twice."
+ the_fix_only_twice: "You can only click this twice"
  me_rename_title: "Restore Original Name"
  me_rename_desc: "If you wish to restore the original name of the country you are playing, click this button."
+
+ the_fix2_title: "§YUpdate Missions§!"
+ the_fix2_desc: "Click to reset your mission tree and to choose again between ME or VU/PDX missions. You can only click this once."
+ the_fix_only_once: "You can only click this once"
 
  # ME custom loc:
  string_me_get_country_flag: "@[This.GetTag]"

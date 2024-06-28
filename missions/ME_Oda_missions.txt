@@ -563,7 +563,7 @@ ODA_missions_3 = {
 			}
 			add_country_modifier = {
 				name = oda_blaze_dragon
-				duration = 7300
+				duration = -1
 			}
 			japan_region = {
 				limit = {

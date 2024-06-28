@@ -7008,7 +7008,11 @@ japanese_divine_empire = {
 		no_stability_loss_on_monarch_death = yes 
 		all_estate_loyalty_equilibrium = 0.1
 		tolerance_own = 3 
+		amount_of_samurai = 10
 		allowed_samurai_fraction = 0.1
+		country_military_power = 1
+		country_diplomatic_power = 1
+ 		country_admin_power = 1
 	}
 }
 
