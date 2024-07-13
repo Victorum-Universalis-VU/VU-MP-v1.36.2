@@ -71,7 +71,7 @@ NDiplomacy = {
 	DISHONORABLE_PEACE_MONTHS = 12,					-- See DISHONORABLE_PEACE_WARSCORE. Set to 0 to entirely disable the feature.
 	DISHONORABLE_PEACE_WARSCORE = -10,				-- If you have more than this amount of individual warscore, peacing out within DISHONORABLE_PEACE_MONTHS of war start counts as a dishonorable act and incurs a CALL_ALLY_DECLINE_PRESTIGE_PENALTY hit.
 
-	DAYS_TO_DECLARE_WAR = 30,						-- Days from start of game before you can DOW anyone
+	DAYS_TO_DECLARE_WAR = 0,						-- Days from start of game before you can DOW anyone
 
 	INCREASE_TRUST_COST = 10,						-- Cost in favors to increase trust
 	INCREASE_TRUST_AMOUNT = 5,						-- Amount of trust per increase
@@ -95,7 +95,7 @@ NDiplomacy = {
 	TRUST_PENALTY_FOR_NO_LAND = 20,					-- Trust penalty for not being given as much land as they expected in peace deal (scales with how much they actually got relative to participation)
 	TRUST_PENALTY_FOR_SEPARATE_PEACE = 10,			-- Trust penalty for signing a separate peace
 
-	OFFENSIVE_WAR_COOLDOWN = 10,					-- Years between when you can call a country into an offensive war on your behalf
+	OFFENSIVE_WAR_COOLDOWN = 0,					-- Years between when you can call a country into an offensive war on your behalf
 	MAX_CLIENT_STATES = 10,							-- Max client states for one country
 
 	ALLOW_LEADER_DEMAND_TOGGLE = 0,					-- Whether or not player is allowed to set if warleader can negotiate for them
@@ -349,7 +349,7 @@ NDiplomacy = {
 	CANCEL_TRADE_TRANSFER_PRESTIGE_HIT = -5,
 
 	DIPLOMAT_SPEED = 20.0,							-- DIPLOMAT_SPEED
-	DIPLOMAT_COOLDOWN_TIME = 1,						-- DIPLOMATIC ACTION COOLDOWN IN MONTHS
+	DIPLOMAT_COOLDOWN_TIME = 7,						-- DIPLOMATIC ACTION COOLDOWN IN MONTHS
 	MIN_RELATIONS_TO_ALLY = -25,					-- Alliances not possible if either country has an opinion of the other lower than this
 	MIN_RELATIONS_TO_SUPPORT_INDEPENDENCE = -25,	-- Support Independence not possible if either country has an opinion of the other lower than this
 
@@ -1109,9 +1109,9 @@ NCountry = {
 	FEDERATION_DESIRABILITY_WANTS_WEAKEN = -10,
 	FEDERATION_DESIRABILITY_DONT_WANT_TO_CHANGE = -10,
 	FEDERATION_ACTION_COOLDOWN = 5,
-	BREAK_ALLIANCE_ACTION_COOLDOWN = 10,
-	TRADE_FAVORS_ACTION_COOLDOWN = 5,
-	REDUCE_RELATION_ACTION_COOLDOWN = 15,
+	BREAK_ALLIANCE_ACTION_COOLDOWN = 1,
+	TRADE_FAVORS_ACTION_COOLDOWN = 0.5,
+	REDUCE_RELATION_ACTION_COOLDOWN = 0.5,
 	
 	FEDERATION_ADVANCEMENT_COHESION_REQUIREMENT = 100.0,
 	FEDERATION_ADVANCEMENT_COHESION_COST = 80.0,

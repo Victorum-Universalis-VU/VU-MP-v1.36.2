@@ -2401,7 +2401,6 @@ JAP_ideas = {
 	start = {
 		stability_cost_modifier = -0.1
 		discipline = 0.05
-		land_morale = 0.1
 	}
 	
 	bonus = {
@@ -2420,7 +2419,6 @@ JAP_ideas = {
 	}
 	jap_unification_under_the_emperor = {
 		global_unrest = -2
-		global_trade_goods_size_modifier = 0.1
 	}
 	jap_modernization = {
 		technology_cost = -0.05
@@ -2431,8 +2429,6 @@ JAP_ideas = {
 	}
 	jap_land_of_the_rising_sun = {
 		prestige = 1
-		province_warscore_cost = -0.1
-		core_creation = -0.1
 	}
 	jap_kaitakudan = {
 		global_colonial_growth = 20

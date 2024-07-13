@@ -8537,7 +8537,7 @@ sankin_kotai_palaces = {
 
 	#can we build it?
 	build_trigger = {
-		is_year = 1500 #Changed from 1582 because it is a requrement in the Japanese Mission tree
+	    is_year = 1582
 		culture_group = japanese_g
 		province_is_or_accepts_culture = yes
 	}
@@ -8706,7 +8706,7 @@ sankin_kotai_palaces = {
 
 mausoleum_at_halicarnassus = {
 	#province it starts in
-	start = 5134 #Moved to Halicarnassos
+	start = 319
 
 	#date built in real life (so anything built during game time will be there if you start a game after that date)
 	date = -350.01.01
@@ -12744,19 +12744,6 @@ etchimiadzin_cathedral = {
 				religion = nestorian
 				has_owner_religion = yes
 			}
-		#	owner = {
-		#		OR = {
-		#			tag = QAR
-		#			AND = {
-		#				tag = TRK
-		#				was_tag = QAR
-		#			}
-		#		}
-		#		custom_trigger_tooltip = {
-		#			tooltip = QAR_unlocked_cathedral_tt
-		#			has_country_flag = QAR_unlocked_cathedral
-		#		}
-		#	}
 		}
 	}
 
@@ -12780,19 +12767,6 @@ etchimiadzin_cathedral = {
 				religion = nestorian
 				has_owner_religion = yes
 			}
-		#	owner = {
-		#		OR = {
-		#			tag = QAR
-		#			AND = {
-		#				tag = TRK
-		#				was_tag = QAR
-		#			}
-		#		}
-		#		custom_trigger_tooltip = {
-		#			tooltip = QAR_unlocked_cathedral_tt
-		#			has_country_flag = QAR_unlocked_cathedral
-		#		}
-		#	}
 		}
 	}
 
@@ -12810,19 +12784,6 @@ etchimiadzin_cathedral = {
 				religion = nestorian
 				has_owner_religion = yes
 			}
-		#	owner = {  #Work in progress
-		#		OR = {
-		#			tag = QAR
-		#			AND = {
-		#				tag = TRK
-		#				was_tag = QAR
-		#			}
-		#		}
-		#		custom_trigger_tooltip = {
-		#			tooltip = QAR_unlocked_cathedral_tt
-		#			has_country_flag = QAR_unlocked_cathedral
-		#		}
-		#	}
 		}
 	}
 

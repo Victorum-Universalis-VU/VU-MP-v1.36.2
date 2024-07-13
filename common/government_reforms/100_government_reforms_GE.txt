@@ -752,7 +752,6 @@
 		}
 		modifiers = {
 			prestige_decay = -0.01
-			amount_of_samurai = 8
 		}
 		conditional = {
 			allow = { has_dlc = "Res Publica" }
